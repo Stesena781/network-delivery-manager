@@ -35,6 +35,11 @@ export default function CapacityPlanningCard() {
         boxShadow:
           "0 4px 12px rgba(0,0,0,.05)",
         width: "100%",
+        height: "100%",
+        minHeight: "450px",
+        display: "flex",
+        flexDirection: "column",
+        justifyContent: "space-between",
       }}
     >
       <h3

@@ -90,7 +90,7 @@ function Dashboard() {
             projeto={projetoSelecionado}
           />
 
-        
+
 
           <div
             style={{
@@ -107,14 +107,16 @@ function Dashboard() {
             />
           </div>
 
+
           <div
             style={{
               display: "grid",
-              gridTemplateColumns: "1fr 380px",
-              gap: "20px",
+              gridTemplateColumns: "1fr 700px",
+              gap: "17px",
               marginTop: "20px",
               alignItems: "start",
             }}
+
           >
             <RegionalChart
               projetos={projetosFiltrados}
